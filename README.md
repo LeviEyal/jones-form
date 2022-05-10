@@ -62,11 +62,10 @@ The server side is deployed on heroku in the following link:
 [Heroku](https://jones-leads.herokuapp.com)
 
 # Screenshots
-
-![](client%5Cpublic%5Cscreenshots%5C1.png)
-![](client%5Cpublic%5Cscreenshots%5C2.png)
-![](client%5Cpublic%5Cscreenshots%5C3.png)
-![](client%5Cpublic%5Cscreenshots%5C4.png)
-![](client%5Cpublic%5Cscreenshots%5C5.png)
-![](client%5Cpublic%5Cscreenshots%5C6.png)
-![](client%5Cpublic%5Cscreenshots%5C7.png)
+![1](https://user-images.githubusercontent.com/48846533/167588308-f297e073-053e-45d6-8f3a-6fb97877387b.png)
+![2](https://user-images.githubusercontent.com/48846533/167588312-99cbc582-a56a-49f8-b4f6-854fc74c2378.png)
+![3](https://user-images.githubusercontent.com/48846533/167588315-944a77db-aeb7-45c5-b337-2d34cc1e2795.png)
+![4](https://user-images.githubusercontent.com/48846533/167588316-5ceab0b5-aacb-4f34-a184-9bae12cba084.png)
+![5](https://user-images.githubusercontent.com/48846533/167588293-77e14a83-b476-460a-95cf-812802d3643c.png)
+![6](https://user-images.githubusercontent.com/48846533/167588300-5cd9a7d1-738d-4491-9c67-82186db7ffc5.png)
+![7](https://user-images.githubusercontent.com/48846533/167588306-c64493f5-4825-4b3b-a914-0768343990d4.png)
