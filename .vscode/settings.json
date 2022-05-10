@@ -1,0 +1,5 @@
+{
+  "files.exclude": {
+    "client\\package-lock.json": true
+  }
+}

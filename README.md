@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# TL/DR
+## Visit the deployed website:
+## https://jones-form.netlify.app/
+(The form is under the middle tab of the website.)
+<br>
+<br>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Description
 
-## Available Scripts
+A simple form for creating a new lead.
+The user is prompted to enter the following information:
 
-In the project directory, you can run:
+- First name
+- Last name
+- Email
+- Phone number
 
-### `npm start`
+and then the lead is sent to the server side (deployed on Heroku) for processing.
+The server side will then create a new lead in the MongoDB database (Hosted on MongoDB Atlas), and send an email (see in the screenshots section) using the
+MailTrap API.
+(MailTrap is a free email service that allows you to send and receive emails from your own server.))
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Important Note:
+## The form is buing validated both on the client side (JavaScript) and on the server side (Node.js), for security reasons.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Tools that i used to create this project:
 
-### `npm test`
+- Material UI
+- React
+- React-router
+- express
+- mongoose
+- monogoDB
+- MailTrap API
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# How to use this project?
 
-### `npm run build`
+## Development
+Open the terminal and run the following command:
+```
+git clone this_repo_url
+cd project_name
+cd server
+npm install
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Open another terminal and run the following command:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+cd project_name
+cd client
+npm install
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Production
 
-### `npm run eject`
+I deployed the client side on netlify in the following link:
+[Netlify](https://jones-form.netlify.app/)
+The server side is deployed on heroku in the following link:
+[Heroku](https://jones-leads.herokuapp.com)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Screenshots
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![](client%5Cpublic%5Cscreenshots%5C1.png)
+![](client%5Cpublic%5Cscreenshots%5C2.png)
+![](client%5Cpublic%5Cscreenshots%5C3.png)
+![](client%5Cpublic%5Cscreenshots%5C4.png)
+![](client%5Cpublic%5Cscreenshots%5C5.png)
+![](client%5Cpublic%5Cscreenshots%5C6.png)
+![](client%5Cpublic%5Cscreenshots%5C7.png)
